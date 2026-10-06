@@ -22,9 +22,9 @@ mass_schedule = [
         'title': 'Tamil Mass',
         'date': 'October 18, 2026',
         'day': 'Sunday',
-        'time': '5:00 PM',
+        'time': '4:00 PM',
         'type': 'Tamil Mass',
-        'location': 'St. Michael\'s Church, Leawood, KS',
+        'location': 'Paxico, KS',
         'priest': 'TBD',
         'raw_date': '2026-10-18'
     },
@@ -34,7 +34,7 @@ mass_schedule = [
         'day': 'Sunday',
         'time': 'TBD',
         'type': 'Tamil Mass',
-        'location': 'St. Michael\'s Church, Leawood, KS',
+        'location': 'Holy Trinity Church, Paola, KS',
         'priest': 'TBD',
         'raw_date': '2026-11-15'
     },
@@ -44,7 +44,7 @@ mass_schedule = [
         'day': 'Sunday',
         'time': 'TBD',
         'type': 'Tamil Mass',
-        'location': 'St. Michael\'s Church, Leawood, KS',
+        'location': 'Holy Trinity Church, Paola, KS',
         'priest': 'TBD',
         'raw_date': '2026-12-20'
     }
@@ -53,29 +53,11 @@ mass_schedule = [
 # Sample events data
 events = [
     {
-        'title': 'Family Rosary',
-        'date': '2026-10-12',
-        'time': 'Weekend',
-        'location': 'Kansas Tamil Catholic Community',
-        'description': 'Join us for Family Rosary prayer every weekend in October. A beautiful tradition to pray together as families.',
-        'type': 'Prayer Event',
-        'contact': 'Contact John for details'
-    },
-    {
-        'title': 'Family Rosary',
-        'date': '2026-10-19',
-        'time': 'Weekend',
-        'location': 'Kansas Tamil Catholic Community',
-        'description': 'Join us for Family Rosary prayer every weekend in October. A beautiful tradition to pray together as families.',
-        'type': 'Prayer Event',
-        'contact': 'Contact John for details'
-    },
-    {
-        'title': 'Family Rosary',
-        'date': '2026-10-26',
-        'time': 'Weekend',
-        'location': 'Kansas Tamil Catholic Community',
-        'description': 'Join us for Family Rosary prayer every weekend in October. A beautiful tradition to pray together as families.',
+        'title': 'Holy Rosary',
+        'date': '2026-10-24',
+        'time': 'Saturday',
+        'location': 'James Jeneive Home, 13900 Russell Street, #327, Overland Park, KS 66223',
+        'description': 'Join us for Holy Rosary prayer at James Jeneive\'s home. All community members are welcome to pray together.',
         'type': 'Prayer Event',
         'contact': 'Contact John for details'
     },
@@ -113,7 +95,7 @@ contact_info = {
     'phone': '(913) 461-2244',
     'whatsapp': '19134612244',
     'email': 'kansastamilcatholic@gmail.com',
-    'address': 'St. Michael\'s Church, Leawood, KS'
+    'address': 'Overland Park, KS'
 }
 
 @app.route('/')
