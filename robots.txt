@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /api/
 
-Sitemap: https://kansastamilcatholic-seven.vercel.app/sitemap.xml
+Sitemap: https://kansastamilcatholic.vercel.app/sitemap.xml

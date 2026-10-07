@@ -154,18 +154,22 @@ def google_verification():
 def robots():
     return '''User-agent: *
 Allow: /
+Disallow: /api/
 
-Sitemap: https://kansastamilcatholic-seven.vercel.app/sitemap.xml''', 200, {'Content-Type': 'text/plain'}
+Sitemap: https://kansastamilcatholic.vercel.app/sitemap.xml''', 200, {'Content-Type': 'text/plain'}
 
 @app.route('/sitemap.xml')
 def sitemap():
     return '''<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kansastamilcatholic-seven.vercel.app/</loc>
+    <loc>https://kansastamilcatholic.vercel.app/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kansastamilcatholic.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://kansastamilcatholic.vercel.app/" />
   </url>
 </urlset>''', 200, {'Content-Type': 'application/xml'}
 
